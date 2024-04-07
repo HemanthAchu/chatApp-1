@@ -22,7 +22,7 @@ function UserLogin({setuser}) {
       <input style={{margin:10,height:30,width:'25',borderRadius:10,padding:'10px',border:'none',fontSize:16}} 
       value={user}
       onChange={e=>setAuser(e.target.value)}
-      placeholder='Write a rondom name'
+      placeholder='Write a random name'
       />
       <button onClick={()=>handlesetUser()} style={{color:'white',backgroundColor:"green",border:"none",padding:"10px",borderRadius:"10px"}} >login</button>
     </div>
